@@ -299,12 +299,7 @@ input::placeholder, textarea::placeholder{
             background:linear-gradient(rgb(134, 134, 134) 2%, rgba(75, 75, 75, 0.438));
             border-radius: 20px;
         }
-        .columna2-mapas{
-            padding: 1em;
-            margin: 1em;
-            background:linear-gradient(rgb(134, 134, 134) 2%, rgba(75, 75, 75, 0.438));
-            border-radius: 20px;
-        }
+
         .columna1-informacion h2{
             font-size: 2.5vw;
             
@@ -312,6 +307,14 @@ input::placeholder, textarea::placeholder{
         .columna1-informacion p{
             font-size: 2vw;
             font-weight: 500;
+        }
+
+        .columna1-informacion iframe{   
+            border-radius: 20px;
+            width: 50vw;
+            height: 50vh;
+            border: 0;
+            margin: 0 auto;
         }
         
 }
