@@ -281,6 +281,42 @@ input::placeholder, textarea::placeholder{
     display: inline-block;
 }
 
+/*LOCALIDADES*/
+
+/*MEDIA QUERYS*/
+@media (min-width: 40em) {
+        .grid-container-locaciones{
+            display: grid;
+            grid-gap: 1em;
+            padding: 1em;
+            margin: 1em;
+            border-radius: 20px;
+        }
+
+        .columna1-informacion{
+            padding: 1em;
+            margin: 1em;
+            background:linear-gradient(rgb(134, 134, 134) 2%, rgba(75, 75, 75, 0.438));
+            border-radius: 20px;
+        }
+        .columna2-mapas{
+            padding: 1em;
+            margin: 1em;
+            background:linear-gradient(rgb(134, 134, 134) 2%, rgba(75, 75, 75, 0.438));
+            border-radius: 20px;
+        }
+        .columna1-informacion h2{
+            font-size: 2.5vw;
+            
+        }
+        .columna1-informacion p{
+            font-size: 2vw;
+            font-weight: 500;
+        }
+        
+}
+
+
 
 /*MEDIA QUERIS*/
 @media screen and (min-width:768px) and (max-width:1023px) {
